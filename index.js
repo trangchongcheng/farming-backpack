@@ -71,13 +71,13 @@ const init = async (client) => {
             }
         }
 
-        console.log("--------------------------------------------------")
-        console.log("|                                                 |")
-        console.log(`| Số lần mua thành công:${successbuy}, Số lần bán thành công:${sellbuy}|`);
-        console.log(`| Volume 1000 giao dịch gần nhất: ${totalVolume.toFixed(2)}        |`)
-        console.log(`| Phí 1000 giao dịch gần nhất: ${totalFee.toFixed(2)}              |`)
-        console.log("|                                                 |")
-        console.log("--------------------------------------------------")
+        console.log("-----------------------------------------------------")
+        console.log("|                                                    |")
+        console.log(`| Số lần mua thành công: ${successbuy}, Số lần bán thành công:${sellbuy} |`);
+        console.log(`| Volume 1000 giao dịch gần nhất: ${totalVolume.toFixed(2)}           |`)
+        console.log(`| Phí 1000 giao dịch gần nhất: ${totalFee.toFixed(2)}                 |`)
+        console.log("|                                                    |")
+        console.log("-----------------------------------------------------")
 
         console.log("\n\n<--------------- x.com/trangchongcheng ---------------> \n\n")
 

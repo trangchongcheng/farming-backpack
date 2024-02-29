@@ -15,7 +15,13 @@ https://backpack.exchange/refer/airdrop101
  npm install
 ```
 
-3. Run script:
+3. Update apisecret, apikey
+
+Truy cập https://backpack.exchange/settings -> API keys -> New API key và điền vào file index.js như hình ảnh.
+
+![Screenshot](image.png)
+
+4. Run script:
 
 ```
 node ./index.js (windows)
